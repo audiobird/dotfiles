@@ -1,0 +1,9 @@
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = git@github.com:ohmyzsh/ohmyzsh
+[submodule ".oh-my-zsh-custom/plugins/zsh-autosuggestions"]
+	path = .oh-my-zsh-custom/plugins/zsh-autosuggestions
+	url = git@github.com:zsh-users/zsh-autosuggestions
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = git@github.com:audiobird/nvim_config

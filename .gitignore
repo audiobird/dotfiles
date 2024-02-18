@@ -1,0 +1,19 @@
+/*
+# meta
+!.gitignore
+!README.md
+
+!.zshrc
+
+!/.config/
+/.config/*
+!/.config/i3*/
+!/.config/nvim
+!/.config/lazygit/
+/.config/lazygit/*
+!/.config/lazygit/config.yml
+
+!/.oh-my-zsh
+
+!/.oh-my-zsh-custom
+
