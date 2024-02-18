@@ -13,4 +13,6 @@ If there are conflicts with the previous command, delete or backup the offending
 
 `dotfiles submodule update --init --recursive`  
 
-`source ~/.zshrc`  
+
+#### Credit:  
+https://www.atlassian.com/git/tutorials/dotfiles
