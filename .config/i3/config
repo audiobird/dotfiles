@@ -223,7 +223,7 @@ for_window [class="Spotify"] move --no-auto-back-and-forth container to workspac
 for_window [class="alsa-scarlett-gui"] set floating
 
 # background
-set $background "feh --bg-center \".config/i3/background.jpg\""
+set $background "feh --no-fehbg --bg-center \".config/i3/background.jpg\""
 exec_always --no-startup-id $background
 
 ## Manual management of external displays
