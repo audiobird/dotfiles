@@ -89,6 +89,13 @@ export PATH="/usr/share/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin:$PA
 export PATH="$HOME/.local/share/yabridge:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
+#golang
+export PATH="/home/cantrell/.local/go/bin:$PATH"
+
+#nvm
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
 #rp2040 sdk
 export PICO_SDK_PATH=$HOME/pico/pico-sdk/
 
@@ -124,3 +131,7 @@ alias weather="curl http://wttr.in/eugene"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
