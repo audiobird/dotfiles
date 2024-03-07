@@ -127,3 +127,4 @@ alias weather="curl http://wttr.in/eugene"
 #git .dotfiles
 alias dotfiles='lazygit --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+source $HOME/github/git-subrepo/.rc
