@@ -128,9 +128,9 @@ alias nvimconfig="cd $HOME/.config/nvim/ && nvim ."
 alias weather="curl http://wttr.in/eugene"
 
 #git .dotfiles
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias dotfiles='lazygit --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
