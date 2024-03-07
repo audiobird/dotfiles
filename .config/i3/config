@@ -190,11 +190,12 @@ client.focused          #4c7899 #285577 #ffffff #ff69e6   #ff69e6
 client.focused_inactive #333333 #5f676a #ffffff #00ffd9   #00ffd9
 
 # power management
-set $Locker i3lock && sleep 1
+#set $Locker i3lock && sleep 1
+set $Locker ${HOME}/.config/i3/screensaver_locker.sh
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
-    bindsym l exec --no-startup-id $Locker, mode "default"
+    bindsym l mode "default", exec --no-startup-id $Locker
     bindsym e exec --no-startup-id i3-msg exit, mode "default"
     bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
     bindsym r exec --no-startup-id systemctl reboot, mode "default"
