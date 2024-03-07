@@ -92,10 +92,6 @@ export PATH="$HOME/.local/bin:$PATH"
 #golang
 export PATH="/home/cantrell/.local/go/bin:$PATH"
 
-#nvm
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-
 #rp2040 sdk
 export PICO_SDK_PATH=$HOME/pico/pico-sdk/
 
