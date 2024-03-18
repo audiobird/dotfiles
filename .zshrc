@@ -76,6 +76,7 @@ ZSH_CUSTOM=$HOME/.oh-my-zsh-custom
 plugins=(
     git
     zsh-autosuggestions
+    golang
 )
 
 source $ZSH/oh-my-zsh.sh
