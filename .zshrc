@@ -89,6 +89,7 @@ export PATH="$HOME/gems/bin:$PATH"
 export PATH="/usr/share/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin:$PATH"
 export PATH="$HOME/.local/share/yabridge:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin/dart-sass:$PATH"
 
 #golang
 export PATH="/home/cantrell/.local/go/bin:$PATH"
